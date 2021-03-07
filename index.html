@@ -1,0 +1,50 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://heehyeonkim.github.io/">
+        Test Image and Post
+      </a>
+    </h1>
+    <span class="post-date">07 March 2021</span>
+    <img src="assets/images/rnn_full_model.png"></img>
+    "
+    A look at the problem of vanishing or exploding gradients.
+    Two of the common problems associated with training of deep neural networks using gradient-based learning methods and backpropagation
+    "
+    <a href="https://heehyeonkim.github.io/">Read More...</a>
+  </div>
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://heehyeonkim.github.io/">
+        Test Image and Post
+      </a>
+    </h1>
+    <span class="post-date">07 March 2021</span>
+    <img src="assets//images//rnn_full_model.png">
+    A look at the problem of vanishing or exploding gradients.
+    Two of the common problems associated with training of deep neural networks using gradient-based learning methods and backpropagation
+    <a href="https://heehyeonkim.github.io/">Read More...</a>
+  </div>
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
