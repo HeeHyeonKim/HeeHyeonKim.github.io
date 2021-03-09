@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OS - 3.Operating System Service
+title: Operating System Service
 ---
 
 # Operating System Service
