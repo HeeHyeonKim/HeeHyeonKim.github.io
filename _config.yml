@@ -10,7 +10,7 @@ relative_permalinks: False
 title:            HeeHyeon
 tagline:          'Home'
 description:     Image Processing With Deep Learning
-url:              https://heehyeonkim.github.io/
+url:              'https://heehyeonkim.github.io/'
 baseurl:          '/'
 
 author:
