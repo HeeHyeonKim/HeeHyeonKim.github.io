@@ -11,7 +11,7 @@ title:            HeeHyeon
 tagline:          'Home'
 description:     Image Processing With Deep Learning
 url:              https://heehyeonkim.github.io/
-baseurl:          /
+baseurl:          
 
 author:
   name:           'HeeHyeon Kim'
